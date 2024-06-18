@@ -1,7 +1,3 @@
-
-### README.md
-
-```markdown
 # User Management System
 
 ## Description
@@ -10,7 +6,7 @@ This is a simple User Management System API built using Spring Boot. It allows u
 
 ## Technologies Used
 
-- Java 11
+- Java 17
 - Spring Boot 2.7.0
 - Spring Data JPA
 - MySQL
@@ -20,7 +16,7 @@ This is a simple User Management System API built using Spring Boot. It allows u
 
 ### Prerequisites
 
-- Java 11 or later
+- Java 11 or later ( I am using JAVA 17)
 - Maven
 - MySQL
 
@@ -29,9 +25,8 @@ This is a simple User Management System API built using Spring Boot. It allows u
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/user-management-system.git
-   cd user-management-system
-   ```
+   git clone https://github.com/2004-AlokSINGH/RestfulAPI-using-Spring-Boot.git
+   cd userAuth
 
 2. **Configure the database:**
 
@@ -39,8 +34,8 @@ This is a simple User Management System API built using Spring Boot. It allows u
 
    ```properties
    spring.datasource.url=jdbc:mysql://localhost:3306/user_db
-   spring.datasource.username=root
-   spring.datasource.password=yourpassword
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
    spring.jpa.hibernate.ddl-auto=update
    spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
@@ -114,40 +109,4 @@ mvn test
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to me at [alokmail](mailto:thakuraloksingh@gmail.com).
-
----
-
-Happy Coding!
-```
-
-### Steps to Follow
-
-1. **Create a new public repository on GitHub:**
-   - Go to GitHub and create a new repository named `user-management-system`.
-
-2. **Commit your solution code to the repository:**
-   - Initialize the repository and commit all your project files.
-
-   ```sh
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin https://github.com/2004-AlokSINGH/RestfulAPI-using-Spring-Boot.git
-   git push -u origin main
-   ```
-
-3. **Update the README file with instructions on how to run the application and any other relevant information:**
-   - Save the above content as `README.md` in the root directory of your project.
-   - Commit the `README.md` file to the repository.
-
-   ```sh
-   git add README.md
-   git commit -m "Add README file"
-   git push
-   ```
-
-4. **Share the repository URL:**
-   - Provide the URL of your GitHub repository, e.g., `https://github.com/your-username/user-management-system`.
-
-By following these steps, you'll have a comprehensive README file that helps others understand how to run and use your application.
+If you have any questions or suggestions, feel free to reach out to me at [alokmail](mailto:thakuraloksingh186@gmail.com).
