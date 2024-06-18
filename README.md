@@ -55,7 +55,7 @@ This is a simple User Management System API built using Spring Boot. It allows u
 
 4. **Access Swagger UI:**
 
-   Open your browser and navigate to `http://localhost:8080/swagger-ui.html` to access the Swagger UI for API documentation and testing.
+   Open your browser and navigate to `http://localhost:3035/swagger-ui.html` to access the Swagger UI for API documentation and testing.
 
 ## API Endpoints
 
@@ -81,7 +81,7 @@ This is a simple User Management System API built using Spring Boot. It allows u
 - **Example Curl Command:**
 
   ```sh
-  curl -X POST http://localhost:8080/api/user/register -H "Content-Type: application/json" -d '{"username": "testuser", "email": "test@example.com", "password": "password123"}'
+  curl -X POST http://localhost:3035/api/user/register -H "Content-Type: application/json" -d '{"username": "testuser", "email": "test@example.com", "password": "password123"}'
   ```
 
 ### Fetch User
@@ -100,7 +100,7 @@ This is a simple User Management System API built using Spring Boot. It allows u
 - **Example Curl Command:**
 
   ```sh
-  curl -X GET "http://localhost:8080/api/user/fetch?email=test@example.com&password=password123"
+  curl -X GET "http://localhost:3035/api/user/fetch?email=test@example.com&password=password123"
   ```
 
 ## Running Tests
