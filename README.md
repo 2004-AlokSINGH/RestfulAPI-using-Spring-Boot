@@ -106,6 +106,10 @@ You can run the unit tests using Maven:
 mvn test
 ```
 
+## Screenshots
+![Screenshot 2024-06-18 223858](https://github.com/2004-AlokSINGH/RestfulAPI-using-Spring-Boot/assets/123860933/1d1be32a-5158-490e-888d-13ea84cf3602)
+
+
 
 ## Contact
 
